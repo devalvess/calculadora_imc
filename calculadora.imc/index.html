@@ -9,11 +9,11 @@
 </head>
 <body>
     
-    <section class="primeira-sessao">ss
+    <section class="primeira-sessao">
 
         <header class="cabecalho">
             <h1>Calculadora IMC</h1>
-        </header>
+        </header>  
 
         <div class="campo">
             <label for="">Nome:</label>
@@ -21,16 +21,16 @@
         </div>
         <div class="campo">
             <label for="">Altura:</label>
-            <input type="text" name="atura" id="altura">
+            <input type="number" name="atura" id="altura">
         </div>
         <div class="campo">
             <label for="">Peso:</label>
-            <input type="text" name="peso" id="peso">
+            <input type="number" name="peso" id="peso">
         </div>
 
-        <button class="botao">Calcular</button>
+        <button id="botao" onclick="btn();" >Calcular</button>
 
-        <div class="resultado"></div>
+        <div id="resultado"></div>
     </section>
     <script src="script.js"></script>
 </body>
